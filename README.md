@@ -1,3 +1,3 @@
 # news-explorer-api
 
-Бекенд часть дипломного проекта Яндекс.Практикум. Ознакомится с ней млжно по адрессу api http://shumilin.students.nomoreparties.xyz
+Бекенд часть дипломного проекта Яндекс.Практикум. Ознакомится с ней можно по адрессу api http://api.shumilin.students.nomoreparties.xyz

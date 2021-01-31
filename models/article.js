@@ -27,6 +27,7 @@ const articleSchema = new mongoose.Schema({
     validate: {
       validator: (v) => /(http|https):\/\/(www)?[a-z0-9-._~:/?#[\]@!$&'()*+,;=]{1,}#?/.test(v),
     },
+    message: 'Указана не корректная ссылка',
   },
   image: {
     type: String,
@@ -34,6 +35,7 @@ const articleSchema = new mongoose.Schema({
     validate: {
       validator: (v) => /(http|https):\/\/(www)?[a-z0-9-._~:/?#[\]@!$&'()*+,;=]{1,}#?/.test(v),
     },
+    message: 'Указана не корректная ссылка',
   },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
